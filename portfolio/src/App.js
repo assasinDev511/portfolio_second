@@ -8,8 +8,7 @@ import Contact from './components/Contact';
 import data from './data/portfolio.json'; // [code_file:11]
 
 function App() {
-  const [portfolio, setPortfolio] = useState(data);
-
+  const [portfolio] = useState(data);
   return (
     <div className="App">
       <Navbar />
