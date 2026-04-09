@@ -8,6 +8,7 @@
     "projects": [
       {
         "name": "AI Vision System",
+        "image" : "./1.png",
         "description": "Real-time object detection and tracking using YOLOv8 and custom models. Deployed on edge devices.",
         "tech": ["PyTorch", "YOLOv8", "Docker", "AWS"],
         "github": "https://github.com/example/ai-vision",
@@ -15,6 +16,7 @@
       },
       {
         "name": "NLP Chatbot",
+        "image" : "./2.png",
         "description": "Enterprise conversational AI with fine-tuned Llama 3 and RAG.",
         "tech": ["Hugging Face", "LangChain", "PostgreSQL", "FastAPI"],
         "github": "https://github.com/example/nlp-chatbot",

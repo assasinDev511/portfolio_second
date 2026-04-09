@@ -12,7 +12,8 @@ const Home = ({ data }) => (
         </Link>
       </div>
       <div className='md:w-1/2 mt-8 md:mt-0'>
-        <div className='w-80 h-80 bg-gradient-to-br from-cyan-500/20 to-blue-500/20 rounded-2xl animate-pulse mx-auto' />
+        {/* <div className='w-80 h-80 bg-gradient-to-br from-cyan-500/20 to-blue-500/20 rounded-2xl animate-pulse mx-auto' /> */}
+        <img src='./me.png' className='w-80 h-90'/>
       </div>
     </div>
   </div>
