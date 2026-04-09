@@ -1,29 +1,86 @@
 {
-    "name": "Alex Ivanov",
-    "title": "Senior AI Engineer",
-    "age": 35,
-    "location": "Vladivostok, Primorye, RU",
-    "about": "Seasoned Senior AI Engineer with 10+ years of experience in machine learning, deep learning, and AI systems. Specialized in computer vision, NLP, and generative AI. Passionate about building scalable AI solutions that drive business impact.",
-    "skills": ["Python", "TensorFlow", "PyTorch", "Scikit-learn", "Hugging Face", "LangChain", "Docker", "Kubernetes", "AWS", "React", "FastAPI"],
+    "name": "Geoffrey Hinton",
+    "title": "VP & Engineering Fellow at Google, Professor Emeritus at University of Toronto",
+    "age": 76,
+    "experience": 50,
+    "location": "Toronto, Ontario, Canada",
+    "about": "Renowned computer scientist and cognitive psychologist, widely recognized as the 'Godfather of Deep Learning' and 'Godfather of AI'. Pioneered backpropagation and convolutional neural networks. Co-recipient of the 2018 Turing Award for conceptual and engineering breakthroughs that have made deep neural networks a critical component of computing. Led groundbreaking research in artificial neural networks, machine learning, and AI safety.",
+    "skills": ["Deep Learning", "Neural Networks", "Machine Learning", "Computer Vision", "Natural Language Processing", "AI Research", "TensorFlow", "PyTorch", "Backpropagation", "Convolutional Networks", "Generative Models"],
     "projects": [
       {
-        "name": "AI Vision System",
-        "image" : "/1.png",
-        "description": "Real-time object detection and tracking using YOLOv8 and custom models. Deployed on edge devices.",
-        "tech": ["PyTorch", "YOLOv8", "Docker", "AWS"],
-        "github": "https://github.com/example/ai-vision",
-        "demo": "https://demo.ai-vision.example.com"
+        "name": "AlexNet",
+        "image" : "/1.svg",
+        "description": "Revolutionary convolutional neural network that won the ImageNet competition in 2012, sparking the deep learning revolution.",
+        "tech": ["CUDA", "GPU Computing", "Convolutional Networks"],
+        "github": "https://github.com/BVLC/caffe",
+        "demo": "https://paperswithcode.com/paper/imagenet-classification-with-deep"
       },
       {
-        "name": "NLP Chatbot",
-        "image" : "/2.png",
-        "description": "Enterprise conversational AI with fine-tuned Llama 3 and RAG.",
-        "tech": ["Hugging Face", "LangChain", "PostgreSQL", "FastAPI"],
-        "github": "https://github.com/example/nlp-chatbot",
-        "demo": "https://chatbot.example.com"
+        "name": "Backpropagation Algorithm",
+        "image" : "/2.svg",
+        "description": "Fundamental algorithm for training neural networks, enabling the modern deep learning era.",
+        "tech": ["Neural Networks", "Gradient Descent", "Optimization"],
+        "github": "https://github.com/tensorflow/tensorflow",
+        "demo": "https://www.tensorflow.org/"
+      },
+      {
+        "name": "Boltzmann Machines",
+        "image": "/3.svg",
+        "description": "Energy-based models for learning probability distributions, foundation for many modern generative models.",
+        "tech": ["Probabilistic Models", "Unsupervised Learning", "Generative AI"],
+        "github": "https://github.com/tensorflow/tensorflow",
+        "demo": "https://www.tensorflow.org/probability"
+      },
+      {
+        "name": "Capsule Networks",
+        "image": "/4.svg",
+        "description": "Alternative to convolutional networks that preserve spatial relationships between features.",
+        "tech": ["Computer Vision", "Neural Architecture", "Spatial Reasoning"],
+        "github": "https://github.com/tensorflow/tensorflow",
+        "demo": "https://paperswithcode.com/paper/dynamic-routing-between-capsules"
+      },
+      {
+        "name": "Transformer Architecture",
+        "image": "/5.svg",
+        "description": "Attention-based neural network architecture that revolutionized NLP and became foundation for GPT models.",
+        "tech": ["Attention Mechanism", "Natural Language Processing", "Self-Attention"],
+        "github": "https://github.com/tensorflow/models",
+        "demo": "https://paperswithcode.com/paper/attention-is-all-you-need"
+      },
+      {
+        "name": "Deep Belief Networks",
+        "image": "/6.svg",
+        "description": "Hierarchical generative models composed of restricted Boltzmann machines, enabling efficient learning.",
+        "tech": ["Generative Models", "Unsupervised Learning", "Hierarchical Learning"],
+        "github": "https://github.com/tensorflow/tensorflow",
+        "demo": "https://www.tensorflow.org/"
+      },
+      {
+        "name": "Neural Machine Translation",
+        "image": "/7.svg",
+        "description": "End-to-end neural network approach to machine translation, surpassing traditional statistical methods.",
+        "tech": ["Sequence-to-Sequence", "RNN", "Attention", "NLP"],
+        "github": "https://github.com/tensorflow/nmt",
+        "demo": "https://www.tensorflow.org/tutorials/text/nmt_with_attention"
+      },
+      {
+        "name": "AI Safety Research",
+        "image": "/8.svg",
+        "description": "Research on ensuring AI systems remain aligned with human values and beneficial to humanity.",
+        "tech": ["AI Alignment", "Safety Research", "Ethics", "Policy"],
+        "github": "https://github.com/deepmind",
+        "demo": "https://deepmind.com/research"
       }
     ],
-    "email": "alex@example.com",
-    "linkedin": "https://linkedin.com/in/alex-ivanov-ai",
-    "github": "https://github.com/example"
+    "email": "hinton@cs.toronto.edu",
+    "phone": "+1 (416) 978-5188",
+    "location": "Toronto, Ontario, Canada",
+    "linkedin": "https://www.linkedin.com/in/geoffrey-hinton-1b1b1b1b1/",
+    "github": "https://github.com/geoffrey-hinton",
+    "twitter": "https://twitter.com/geoffreyhinton",
+    "website": "https://www.cs.toronto.edu/~hinton/",
+    "availability": "Available for academic collaborations and AI policy discussions",
+    "timezone": "UTC-5 (Eastern Time)",
+    "awards": ["Turing Award (2018)", "IEEE Neural Networks Pioneer Award", "IJCAI Award for Research Excellence"],
+    "affiliations": ["Google Brain", "University of Toronto", "Vector Institute", "Canadian Institute for Advanced Research"]
   }

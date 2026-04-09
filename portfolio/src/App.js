@@ -11,7 +11,7 @@ function App() {
   const [portfolio] = useState(data);
   return (
     <div className="App">
-      <Navbar />
+      <Navbar data={portfolio} />
       <Home data={portfolio} />
       <About data={portfolio} />
       <Skills data={portfolio} />

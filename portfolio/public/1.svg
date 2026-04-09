@@ -1,0 +1,14 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e293b;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#grad1)"/>
+  <circle cx="200" cy="120" r="40" fill="#06b6d4" opacity="0.3"/>
+  <circle cx="160" cy="160" r="25" fill="#3b82f6" opacity="0.4"/>
+  <circle cx="240" cy="140" r="30" fill="#8b5cf6" opacity="0.3"/>
+  <text x="200" y="220" text-anchor="middle" fill="#e2e8f0" font-family="Arial, sans-serif" font-size="18" font-weight="bold">AI Vision System</text>
+  <text x="200" y="245" text-anchor="middle" fill="#94a3b8" font-family="Arial, sans-serif" font-size="14">Computer Vision Project</text>
+</svg>
