@@ -1,0 +1,27 @@
+{
+    "name": "Alex Ivanov",
+    "title": "Senior AI Engineer",
+    "age": 35,
+    "location": "Vladivostok, Primorye, RU",
+    "about": "Seasoned Senior AI Engineer with 10+ years of experience in machine learning, deep learning, and AI systems. Specialized in computer vision, NLP, and generative AI. Passionate about building scalable AI solutions that drive business impact.",
+    "skills": ["Python", "TensorFlow", "PyTorch", "Scikit-learn", "Hugging Face", "LangChain", "Docker", "Kubernetes", "AWS", "React", "FastAPI"],
+    "projects": [
+      {
+        "name": "AI Vision System",
+        "description": "Real-time object detection and tracking using YOLOv8 and custom models. Deployed on edge devices.",
+        "tech": ["PyTorch", "YOLOv8", "Docker", "AWS"],
+        "github": "https://github.com/example/ai-vision",
+        "demo": "https://demo.ai-vision.example.com"
+      },
+      {
+        "name": "NLP Chatbot",
+        "description": "Enterprise conversational AI with fine-tuned Llama 3 and RAG.",
+        "tech": ["Hugging Face", "LangChain", "PostgreSQL", "FastAPI"],
+        "github": "https://github.com/example/nlp-chatbot",
+        "demo": "https://chatbot.example.com"
+      }
+    ],
+    "email": "alex@example.com",
+    "linkedin": "https://linkedin.com/in/alex-ivanov-ai",
+    "github": "https://github.com/example"
+  }
