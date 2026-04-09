@@ -6,7 +6,7 @@ const Projects = ({ data }) => (
           {data.projects.map((project, i) => (
             <div key={i} className='group bg-[#112240] rounded-xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500'>
               {/* <div className='h-48 bg-gradient-to-r from-cyan-500/20 to-blue-500/20 flex items-center justify-center group-hover:scale-110 transition-transform' /> */}
-              <img src={project.image} className='w-full h-[300px] bg-gradient-to-r from-cyan-500/20 to-blue-500/20 flex items-center justify-center group-hover:scale-110 transition-transform' />
+              <img src={project.image} alt="hello" className='w-full h-[300px] bg-gradient-to-r from-cyan-500/20 to-blue-500/20 flex items-center justify-center group-hover:scale-110 transition-transform' />
               <div className='p-6'>
                 <h3 className='text-2xl font-bold text-white mb-2'>{project.name}</h3>
                 <p className='text-gray-400 mb-4'>{project.description}</p>
